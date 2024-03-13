@@ -8,6 +8,7 @@ function f2(){
 	x=x+'Banana';
 	x=x+'orange';
 	document.getElementById('s1').textContent= x;
+	console.log('variable x'+ x);
 }
 
 function f3(){
