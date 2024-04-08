@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #003366 0%, #006699 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .login-container {
+    background: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  .icon-user {
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .input-group {
+    margin-bottom: 20px;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .btn-login {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #004d99;
+    color: white;
+    cursor: pointer;
+  }
+  .login-container a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #004d99;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="icon-user">
+      <!-- User icon goes here -->
+    </div>
+    <form>
+      <div class="input-group">
+        <label for="email">Email ID</label>
+        <input type="email" id="email" placeholder="Enter your email">
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+      </div>
+      <button type="submit" class="btn-login">LOGIN</button>
+      <a href="#">Forgot Password?</a>
+      <a href="#">REGISTER</a>
+    </form>
+  </div>
+</body>
+</html>
